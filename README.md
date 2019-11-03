@@ -5,7 +5,7 @@ Simulations that use game theory
 * chicken (not really, its more of a iterated chicken-like thing with evolutionary modeling in mind)
 * iterated prisoner's dilemma
 
-This project uses imgui and imgui-plot (slightly modified), which can be found here:
+### This project uses imgui and imgui-plot (slightly modified), which can be found here:
 * [ImGui](https://github.com/ocornut/imgui)
 * [ImGui plot](https://github.com/soulthreads/imgui-plot)
 
