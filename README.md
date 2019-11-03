@@ -11,5 +11,5 @@ Simulations that use game theory
 ![IPD](https://i.imgur.com/ctiT5ZY.png "IPD")
 
 This project uses imgui and imgui-plot (slightly modified), which can be found here:
-(https://github.com/ocornut/imgui)
-(https://github.com/soulthreads/imgui-plot)
+[ImGui](https://github.com/ocornut/imgui)
+[ImGui plot](https://github.com/soulthreads/imgui-plot)
