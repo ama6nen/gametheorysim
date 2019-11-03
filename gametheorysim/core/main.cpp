@@ -1,0 +1,22 @@
+#pragma once
+#include <iostream>
+#include "menu.hpp"
+int main()
+{
+	menu::setup();
+
+	MSG msg;
+	ZeroMemory(&msg, sizeof(msg));
+	while (msg.message != WM_QUIT)
+	{
+		if (PeekMessage(&msg, NULL, 0U, 0U, PM_REMOVE))
+		{
+			TranslateMessage(&msg);
+			DispatchMessage(&msg);
+			continue;
+		}
+		menu::run();
+	}
+
+	menu::end();
+}
